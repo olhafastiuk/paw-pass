@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Dataset (~800 MB, downloaded on first run)
+data/
+
+# Runtime logs and captured frames
+logs/
+
+# Trained weights
+models/*.pth
+yolov8*.pt
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
